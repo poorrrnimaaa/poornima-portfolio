@@ -1,43 +1,110 @@
-# Poornima — Portfolio
+# Poornima | Personal Portfolio
 
-React + Vite + Tailwind CSS v4 + Framer Motion.
+A modern editorial-style developer portfolio built to showcase my projects, technical skills, and experience as a Full-Stack Developer. The portfolio features interactive project previews, smooth animations, and a responsive design focused on simplicity and usability.
 
-## Run it
+## 🌐 Live Website
+
+https://poornimacodes.vercel.app
+
+## ✨ Features
+
+- Responsive design for desktop, tablet, and mobile
+- Editorial-inspired modern UI
+- Interactive project showcase
+- Browser-style project previews
+- Video preview on hover
+- Smooth animations using Framer Motion
+- Resume download
+- Contact section with social links
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Deployment
+
+- Vercel
+
+## 📂 Featured Projects
+
+### PitchPerfect
+
+An AI-powered interview and communication practice platform that simulates realistic interview scenarios and provides structured feedback.
+
+**Tech:** React.js, Node.js, Express.js, MongoDB Atlas, Google Gemini API
+
+### NextUp
+
+A real-time digital queue management system with role-based access control and live queue synchronization.
+
+**Tech:** React.js, Node.js, Express.js, MongoDB Atlas, Socket.io
+
+## 📸 Preview
+
+> Add screenshots or a GIF of your portfolio here.
+
+Example:
 
 ```
+public/
+└── preview.png
+```
+
+```md
+![Portfolio Preview](public/preview.png)
+```
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/poorrrnimaaa/poornima-portfolio.git
+```
+
+Navigate to the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
 npm install
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
-Build for production:
+Build for production
 
-```
+```bash
 npm run build
 ```
 
-Output goes to `dist/` — deploy that folder anywhere static (Vercel, Netlify, GitHub Pages).
+Preview production build
 
-## Before you ship it
-
-- **Email**: `src/components/Contact.jsx` currently links to `hello@example.com` — swap in your real address.
-- **Resume link**: none is wired up yet — add one if you want a "Download resume" link in the hero or contact section.
-- **Content**: project copy, stats, and stack lists live in `src/data/projects.js` and inline in `About.jsx` / `Stack.jsx` — update as your projects evolve.
-
-## Structure
-
-```
-src/
-  components/    Rail (desktop nav), MobileNav, Hero, Projects, About, Stack, Contact
-  data/           projects.js — the three project entries
-  hooks/          useActiveSection.js — scroll-spy for nav highlighting
-  index.css       design tokens (colors, fonts) as CSS variables
+```bash
+npm run preview
 ```
 
-## Design notes
+## 📬 Contact
 
-Persistent dark rail on the left (identity + nav) against a warm paper content
-pane on the right — that split carries through the whole page instead of
-just the hero. The signature piece is the live "ticket" card in the hero,
-a nod to NextUp's queue system, ticking up in real time. Each project gets
-its own small hand-built visual (ticket rows, score bars, a locked
-inventory cell) instead of a screenshot or generic icon.
+**Poornima**
+
+- LinkedIn: https://linkedin.com/in/poornimadeveloper
+- GitHub: https://github.com/poorrrnimaaa
+- Email: poornima9437@gmail.com
+
+---
+
+Designed and developed by **Poornima**.
