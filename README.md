@@ -40,21 +40,6 @@ A real-time digital queue management system with role-based access control and l
 
 **Tech:** React.js, Node.js, Express.js, MongoDB Atlas, Socket.io
 
-## 📸 Preview
-
-> Add screenshots or a GIF of your portfolio here.
-
-Example:
-
-```
-public/
-└── preview.png
-```
-
-```md
-![Portfolio Preview](public/preview.png)
-```
-
 ## 🚀 Getting Started
 
 Clone the repository
