@@ -77,14 +77,16 @@ export default function Rail({ active, onNavigate }) {
           >
             <LinkedinIcon size={16} />
           </a>
-          <a href="#contact" aria-label="Email" className="opacity-70 hover:opacity-100 transition-opacity">
+          <a href="mailto:yourname@example.com"
+          aria-label="Email"
+          className="opacity-70 hover:opacity-100 transition-opacity">
             <Mail size={16} strokeWidth={1.5} />
-          </a>
-        </div>
-        <p className="font-mono text-[10px] tracking-wide" style={{ color: "var(--rail-text-dim)" }}>
-          LUCKNOW, IN — GMT+5:30
-        </p>
-      </div>
+            </a>
+            </div>
+            <p className="font-mono text-[10px] tracking-wide" style={{ color: "var(--rail-text-dim)" }}>
+              LUCKNOW, IN — GMT+5:30
+            </p>
+       </div>
     </motion.aside>
   );
 }
